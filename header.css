@@ -1,0 +1,26 @@
+header{
+  background-color: #00712D  ;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap:20%;
+}
+
+nav ul {
+  list-style: none;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  font-size: x-large;
+  gap:10%
+}
+nav a 
+{
+  color:  rgb(255, 255, 255);
+  text-decoration: none;
+}
+body{
+  background-color: #00712D;
+}
